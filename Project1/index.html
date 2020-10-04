@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shriram Fitness Club</title>
+</head>
+<link rel="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url("img/people-2604149_1920.jpg");
+        font-family: 'Bebas Neue', cursive;
+
+    }
+
+    .left {
+        height: 50px;
+        text-align: center;
+        width: 180px;
+        display: inline-block;
+        /* border: 4px solid rgb(136, 136, 255); */
+        position: absolute;
+        left: 60px;
+        top: 0px;
+        font-size: 20px;
+        line-height: 0px;
+
+    }
+
+    .left img {
+        background-repeat: no-repeat;
+        margin: 20px;
+        width: 100px;
+        filter: invert(100%);
+        align-content: center;
+        border-radius: 8px;
+    }
+
+    .container {
+
+        text-align: center;
+        border: 3px solid rgb(0, 0, 0);
+        margin: 100px 73px;
+        padding: 20px 2px;
+        border-radius: 9px;
+        width: 33%;
+        font-size: 30px;
+    }
+
+    .mid {
+        display: block;
+        width: 35%;
+        margin: 18px auto;
+        /* border: 4px solid rgb(99, 207, 96); */
+
+    }
+
+    .right {
+        position: absolute;
+        top: 18px;
+        right: 34px;
+        display: inline-block;
+        /* border: 4px solid rgb(253, 136, 136); */
+    }
+
+    .btn {
+        margin: 9px 20px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        border: solid gray 3px;
+        border-radius: 7px;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .btn:hover {
+        background-color: rgb(26, 26, 26);
+        border: solid gray(68, 68, 68) 3px;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 30px 10px;
+        font-size: 23px;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(189, 189, 189);
+    }
+
+    div div {
+        margin: 50px 0px;
+    }
+
+    .formgroup input {
+        text-align: center;
+        display: block;
+        width: 300px;
+        margin: 0px auto;
+        padding: 5px 3px;
+        border: 2px solid black;
+        font-size: 20px;
+        border-radius: 5px;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container .btn {
+        margin: 1px auto;
+        display: block;
+        width: 52%;
+    }
+</style>
+
+<body>
+    <header class="header">
+
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/weight-1399281_1280.png" alt="">
+            <strong>Shriram Fitness</strong>
+        </div>
+
+        <!-- mid box for nav bar -->
+        <div class="mid">
+
+            <ul class="navbar">
+                <li> <a href="#" class="active">Home</a> </li>
+                <li> <a href="#">About Us</a> </li>
+                <li> <a href="#">Contact Us</a> </li>
+                <li> <a href="#">Fitness Centre</a> </li>
+            </ul>
+        </div>
+
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">Email Us</button>
+            <button class="btn">Call Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <strong>Join the best Gym of Pimpri now</strong>
+        <form action="noaction.php"></form>
+        <div class="formgroup">
+            <input type="text" name="" placeholder="Enter your name here"> <br>
+            <input type="number" name="" placeholder="Enter your weight here"> <br>
+            <input type="number" name="" placeholder="Enter your age here"> <br>
+            <input type="number" name="" placeholder="Enter your phone no. here"> <br>
+        </div>
+        <button class="btn">Submit</button>
+    </div>
+</body>
+
+</html>
